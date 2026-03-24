@@ -42,5 +42,6 @@ int main(){
     scanf("%d",&n);
     A=(int*)malloc(n*sizeof(int));
     Try(0);
+    free(A);
     return 0;
 }
